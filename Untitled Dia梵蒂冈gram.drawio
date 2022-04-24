@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-24T03:40:59.219Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="pLAFddrNvHIbK5DlG8dE" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-24T03:41:54.815Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="cQ1GnsEMV3PyzT9LseLy" version="17.4.6" type="github">
   <diagram id="BLvvh_2QI7bktIU8dGyT" name="Page-1">
     <mxGraphModel dx="2822" dy="1612" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
       <root>
@@ -7,7 +7,7 @@
         <mxCell id="HzP6D1_W7h_Wxs7smr1i-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HzP6D1_W7h_Wxs7smr1i-1" target="HzP6D1_W7h_Wxs7smr1i-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HzP6D1_W7h_Wxs7smr1i-1" value="图解析器" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+        <mxCell id="HzP6D1_W7h_Wxs7smr1i-1" value="图解析器" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="140" y="217" width="160" height="190" as="geometry" />
         </mxCell>
         <mxCell id="HzP6D1_W7h_Wxs7smr1i-2" value="+ ONNX的图Parser&#xa;+ ONNX子图发现&#xa;+ initializer定位&#xa;+ 解析每个Node inputs&#xa;+ 构建Node连接关系拓扑图&#xa;+ 错误检测&#xa;+ ONNX opset版本控制&#xa;+ 处理单入单出，多入多出&#xa;+ 定点可量化算子&#xa;+ 定点不可量化算子" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="HzP6D1_W7h_Wxs7smr1i-1">
@@ -16,7 +16,7 @@
         <mxCell id="HzP6D1_W7h_Wxs7smr1i-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.004;entryY=0.408;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HzP6D1_W7h_Wxs7smr1i-4" target="HzP6D1_W7h_Wxs7smr1i-39">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HzP6D1_W7h_Wxs7smr1i-4" value="量化方法抽象(Schema)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+        <mxCell id="HzP6D1_W7h_Wxs7smr1i-4" value="量化方法抽象(Schema)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
           <mxGeometry x="370" y="217" width="160" height="190" as="geometry" />
         </mxCell>
         <mxCell id="HzP6D1_W7h_Wxs7smr1i-5" value="+ 确定部署硬件&#xa;+ 硬件支持量化特性&#xa;+ 对称 or 非对称&#xa;+ 如何计算zero point&#xa;+ 如何计算scale&#xa;+ 如何计算clip range&#xa;+ LSQ, Fake quantize&#xa;+ 量化块模式发现&#xa;+ 生成对应的Quantizer&#xa;+ 记录Schema" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="HzP6D1_W7h_Wxs7smr1i-4">
@@ -28,13 +28,13 @@
         <mxCell id="HzP6D1_W7h_Wxs7smr1i-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="HzP6D1_W7h_Wxs7smr1i-38" target="HzP6D1_W7h_Wxs7smr1i-76">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HzP6D1_W7h_Wxs7smr1i-38" value="量化定点器" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+        <mxCell id="HzP6D1_W7h_Wxs7smr1i-38" value="量化定点器" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="620" y="217" width="160" height="190" as="geometry" />
         </mxCell>
         <mxCell id="HzP6D1_W7h_Wxs7smr1i-39" value="+ 逐layer定点实现&#xa;+ 逐channel定点实现&#xa;+ 全图定点&#xa;+ CUDA精度模拟&#xa;+ X86精度模拟&#xa;+ ARM64 精度模拟&#xa;+ 零点定点计算&#xa;+ 放大因子计算&#xa;+ 定点误差采集&#xa;+ 修正定点策略" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="HzP6D1_W7h_Wxs7smr1i-38">
           <mxGeometry y="30" width="160" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="HzP6D1_W7h_Wxs7smr1i-42" value="量化图生成器" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+        <mxCell id="HzP6D1_W7h_Wxs7smr1i-42" value="量化图生成器" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
           <mxGeometry x="833" y="217" width="160" height="190" as="geometry" />
         </mxCell>
         <mxCell id="HzP6D1_W7h_Wxs7smr1i-43" value="+ ONNX的图Parser&#xa;+ ONNX子图发现&#xa;+ initializer定位&#xa;+ 解析每个Node inputs&#xa;+ 构建Node连接关系拓扑图&#xa;+ 错误检测&#xa;+ ONNX opset版本控制&#xa;+ 处理单入单出，多入多出&#xa;+ 定点可量化算子&#xa;+ 定点不可量化算子" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="HzP6D1_W7h_Wxs7smr1i-42">
@@ -43,7 +43,7 @@
         <mxCell id="HzP6D1_W7h_Wxs7smr1i-48" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HzP6D1_W7h_Wxs7smr1i-46" target="HzP6D1_W7h_Wxs7smr1i-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HzP6D1_W7h_Wxs7smr1i-46" value="自定义IR (QIR)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+        <mxCell id="HzP6D1_W7h_Wxs7smr1i-46" value="自定义IR (QIR)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="140" y="462" width="160" height="175" as="geometry" />
         </mxCell>
         <mxCell id="HzP6D1_W7h_Wxs7smr1i-47" value="+ ONNX IR冗余繁杂&#xa;+ 量化子IR只需含可量化算子&#xa;+ IR涵盖scale, zero_point&#xa;+ IR与ONNX算子互转&#xa;+ QIR Graph基类&#xa;+ QIR算子合并&#xa;+ QIR基础量化接口&#xa;+ QIR图导出接口&#xa;+ QIR图转换与搜索接口" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="HzP6D1_W7h_Wxs7smr1i-46">
@@ -52,7 +52,7 @@
         <mxCell id="HzP6D1_W7h_Wxs7smr1i-63" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HzP6D1_W7h_Wxs7smr1i-49" target="HzP6D1_W7h_Wxs7smr1i-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HzP6D1_W7h_Wxs7smr1i-49" value="量化图导出器" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+        <mxCell id="HzP6D1_W7h_Wxs7smr1i-49" value="量化图导出器" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
           <mxGeometry x="833" y="462" width="160" height="190" as="geometry" />
         </mxCell>
         <mxCell id="HzP6D1_W7h_Wxs7smr1i-50" value="+ QIR转换&#xa;+ 支持QDQ导出&#xa;+ 支持QOperator导出&#xa;+ 导出维度错误处理&#xa;+ Gather量化参数&#xa;+ 统计量化算子&#xa;+ 智能植入QDQ&#xa;+ 图算子翻译&#xa;+ 图写入&#xa;+ Evaluation" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="HzP6D1_W7h_Wxs7smr1i-49">
@@ -61,7 +61,7 @@
         <mxCell id="HzP6D1_W7h_Wxs7smr1i-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HzP6D1_W7h_Wxs7smr1i-43" target="HzP6D1_W7h_Wxs7smr1i-49">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HzP6D1_W7h_Wxs7smr1i-58" value="量化校准表" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+        <mxCell id="HzP6D1_W7h_Wxs7smr1i-58" value="量化校准表" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#6d8764;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;fontColor=#ffffff;strokeColor=#3A5431;" vertex="1" parent="1">
           <mxGeometry x="581" y="630" width="140" height="104" as="geometry" />
         </mxCell>
         <mxCell id="HzP6D1_W7h_Wxs7smr1i-59" value="Conv01 Cliprange scale" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="HzP6D1_W7h_Wxs7smr1i-58">
@@ -76,19 +76,19 @@
         <mxCell id="HzP6D1_W7h_Wxs7smr1i-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.925;entryY=0.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HzP6D1_W7h_Wxs7smr1i-58" target="HzP6D1_W7h_Wxs7smr1i-58">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HzP6D1_W7h_Wxs7smr1i-64" value="&lt;b&gt;TensorRT&lt;br&gt;int8 Engine&lt;/b&gt;" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HzP6D1_W7h_Wxs7smr1i-64" value="&lt;b&gt;TensorRT&lt;br&gt;int8 Engine&lt;/b&gt;" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#6a00ff;fontColor=#ffffff;strokeColor=#3700CC;" vertex="1" parent="1">
           <mxGeometry x="762" y="714" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HzP6D1_W7h_Wxs7smr1i-65" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HzP6D1_W7h_Wxs7smr1i-50" target="HzP6D1_W7h_Wxs7smr1i-64">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HzP6D1_W7h_Wxs7smr1i-66" value="&lt;b&gt;ncnn int8模型&lt;/b&gt;" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HzP6D1_W7h_Wxs7smr1i-66" value="&lt;b&gt;ncnn int8模型&lt;/b&gt;" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#e3c800;fontColor=#000000;strokeColor=#B09500;" vertex="1" parent="1">
           <mxGeometry x="1050" y="674" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HzP6D1_W7h_Wxs7smr1i-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HzP6D1_W7h_Wxs7smr1i-50" target="HzP6D1_W7h_Wxs7smr1i-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HzP6D1_W7h_Wxs7smr1i-68" value="&lt;b&gt;tcnn tflite int8模型&lt;/b&gt;" style="shape=datastore;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="HzP6D1_W7h_Wxs7smr1i-68" value="&lt;b&gt;tcnn tflite int8模型&lt;/b&gt;" style="shape=datastore;whiteSpace=wrap;html=1;fillColor=#fa6800;fontColor=#000000;strokeColor=#C73500;" vertex="1" parent="1">
           <mxGeometry x="959" y="735" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HzP6D1_W7h_Wxs7smr1i-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HzP6D1_W7h_Wxs7smr1i-50" target="HzP6D1_W7h_Wxs7smr1i-68">
@@ -109,7 +109,7 @@
         <mxCell id="HzP6D1_W7h_Wxs7smr1i-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HzP6D1_W7h_Wxs7smr1i-60" target="HzP6D1_W7h_Wxs7smr1i-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HzP6D1_W7h_Wxs7smr1i-75" value="网络执行器" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+        <mxCell id="HzP6D1_W7h_Wxs7smr1i-75" value="网络执行器" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
           <mxGeometry x="620" y="42" width="160" height="134" as="geometry" />
         </mxCell>
         <mxCell id="HzP6D1_W7h_Wxs7smr1i-76" value="+ QIR -&gt; torch&#xa;+ 算子翻译&#xa;+ 重构torch图&#xa;+ 执行torch前传&#xa;+ 校准torch输出误差&#xa;+ 自校准定点器参数" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="HzP6D1_W7h_Wxs7smr1i-75">
@@ -127,7 +127,7 @@
         <mxCell id="HzP6D1_W7h_Wxs7smr1i-92" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.978;entryY=0.403;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HzP6D1_W7h_Wxs7smr1i-85" target="HzP6D1_W7h_Wxs7smr1i-43">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HzP6D1_W7h_Wxs7smr1i-85" value="调度器" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+        <mxCell id="HzP6D1_W7h_Wxs7smr1i-85" value="调度器" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=1;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
           <mxGeometry x="1064" y="255" width="160" height="114" as="geometry" />
         </mxCell>
         <mxCell id="HzP6D1_W7h_Wxs7smr1i-86" value="+ 打标可量化算子&#xa;+ 打标不可量化算子&#xa;+ 根据部署平台调度算子&#xa;+ 智能插入QDQ节点&#xa;+ 确保量化到不可量化误差" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="HzP6D1_W7h_Wxs7smr1i-85">
