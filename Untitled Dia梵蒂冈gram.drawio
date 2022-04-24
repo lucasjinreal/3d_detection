@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-24T03:35:10.128Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="4ACcge5Xc8tPdTULISav" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-24T03:40:59.219Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="pLAFddrNvHIbK5DlG8dE" version="17.4.6" type="github">
   <diagram id="BLvvh_2QI7bktIU8dGyT" name="Page-1">
     <mxGraphModel dx="2822" dy="1612" grid="1" gridSize="7" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="850" math="0" shadow="0">
       <root>
@@ -132,6 +132,9 @@
         </mxCell>
         <mxCell id="HzP6D1_W7h_Wxs7smr1i-86" value="+ 打标可量化算子&#xa;+ 打标不可量化算子&#xa;+ 根据部署平台调度算子&#xa;+ 智能插入QDQ节点&#xa;+ 确保量化到不可量化误差" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="HzP6D1_W7h_Wxs7smr1i-85">
           <mxGeometry y="30" width="160" height="84" as="geometry" />
+        </mxCell>
+        <mxCell id="HzP6D1_W7h_Wxs7smr1i-93" value="&lt;b&gt;量化框架架构图&lt;/b&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="56" y="63" width="140" height="28" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
