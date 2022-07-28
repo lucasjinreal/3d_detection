@@ -1,1 +1,71 @@
-<mxfile host="app.diagrams.net" modified="2022-07-28T07:54:48.556Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="wvYybwgCG_txyR2YL4Cn" version="20.2.2" type="github"><diagram id="W0OQ7C1DkC0eSfQlPHmk" name="Page-1">5Vlbc5s4FP41emwGkLk9YhunM02dTJKd7T51MMiGFiOPLBK7v36PQBiDcMLW9pDO5sFBn46Q9J2LzhEIT9a7WxZs4q80IikytGiH8BQZhm65LvwTyL5EXF0CK5ZEUqgGnpJfRIKaRPMkItuGIKc05cmmCYY0y0jIG1jAGH1tii1p2px1E6yIAjyFQaqifycRj0vUMbUa/0ySVVzNrGuyZx1UwhLYxkFEX48g7CM8YZTy8mm9m5BUkFfxUo6bneg9LIyRjPcZcDvTNH+1/v7l5RcNbmOd/4jTT7pdvuYlSHO5Y7lavq8oIBEwIpuU8ZiuaBakfo2OGc2ziIh5NGjVMneUbgDUAfxBON9L9QY5pwDFfJ3K3nJOMdHJzUloS3MWkjd2JNfPA7Yi/K2dWwcdgPESuiac7WEgI2nAk5fmQgJpRauDXE00PEiu/wPvFc3/P97LFw7G+/u016QKhl7jhJOnTVDs/RViXJPAZZKmE5pSVozFSyckYQj4ljP6kxz1LBxzZGoHyl8I42T3NukqR9WAkQwpMqbqNr6xzRJ6rYMUxlIsPgpQI9u4Ma9ErjmECQNnbP9Nji8a/4gGbFI2p7vjzuleti5o+riv6Q9p+Vi1fN9G7gh5DvIt5DhobCMffn3kYuSbyDGRBxq1UtjSeMHgaSWekmyT862Kr3NxKINOYR1SpGUMcABuxGNMdgHoGMZsCEtgd4TV6EMFGX2cb0eqlKHDGSOTONGoyxkdY4Etq2F9+mVc85NrNlwT25ril7rR4ZeOdiW9W4re7+fzb495xoHnM4MfzXjl3doFyMNGM64Zo57kWdciT82Onkm2pezx+XLM6VdgDutDM+cozD083N3M5+fxdg2qnKGpchWqvn5Ankbm0DxVNn3sjZMPyJRpDM6UrjAlDvvxGLkz5I/Q2EFg9eLU98UZLw77GfLwx4pput1y1A4DtDtYPVB9eVoHSXDR5RJVvXdxPGiRVi2zUaWV+WaeVvlmhaRJhUwe/vp+L07msgOmrvu6peFI6il9C9LP/tP8/rH3BGJIEch7S7+3HACP998yRfA0riS7Gc1IKzOW0JGFdTm2cN0kDFIvTVaQqk/XSRQV9kyhZ5kWF1kxYCS7UOKst46brmPZ7HJ37WruPvrT3b1vYaoPWpnqamm6heVe9F5muTS672Uia2GZ1hWOL4ihrbRAV69orA6DxlezZ7UUbBb8kCF4amFPc/5uxX+QOVHyRzTM1wVx7yluUWr5bvH7N2wXL+rN1n3b8EV99RHlzw1NzpkRRw59oAlMfdCU0UrFLbOlgTIUylEtJRyWcYZe1LJXeJarIWdylHgXD56HfBc5uLiAA9eborEhcnJoenoxykfOWHU774Zm2e6kq4X7NAE1M/wbvrYIwp+rwkzucw6vqS7WtvKOzeyKrMQ6EVltd6Gde+Nd6bHD47pi59UczuiqqJTYCdpzJ5WGJ8h1qhqr0LCwAqvQOchPpc49X9Vw95vlexwxFl4FXYC7o6Nb3NLQfIF4Y+TNTtrIhtGQbLc9LOSEQXyAm1b4u2netdq4Iyxbpmol7aDQw0qgWX+pLaNF/b0b+/8C</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-28T07:56:43.653Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="Mv1ukTfpShlSj269dvWU" version="20.2.2" type="github">
+  <diagram id="W0OQ7C1DkC0eSfQlPHmk" name="Page-1">
+    <mxGraphModel dx="999" dy="1081" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GF00Egm_KvzoaGh1tjhl-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GF00Egm_KvzoaGh1tjhl-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="700" y="466.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GF00Egm_KvzoaGh1tjhl-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GF00Egm_KvzoaGh1tjhl-2" target="GF00Egm_KvzoaGh1tjhl-21" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GF00Egm_KvzoaGh1tjhl-2" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="300" y="230" width="330" height="472.5" as="geometry" />
+        </mxCell>
+        <mxCell id="GF00Egm_KvzoaGh1tjhl-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="GF00Egm_KvzoaGh1tjhl-3" target="GF00Egm_KvzoaGh1tjhl-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GF00Egm_KvzoaGh1tjhl-3" value="用户输入&lt;br&gt;inputs&lt;br&gt;multiple inputs" style="shape=hexagon;perimeter=hexagonPerimeter2;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="65" y="426.25" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GF00Egm_KvzoaGh1tjhl-6" value="ONNXRuntime" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=0" parent="1" vertex="1">
+          <mxGeometry x="480" y="296.25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GF00Egm_KvzoaGh1tjhl-7" value="TensorRT" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="480" y="366.25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GF00Egm_KvzoaGh1tjhl-8" value="PPL.NN" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="436.25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GF00Egm_KvzoaGh1tjhl-9" value="MNN" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="506.25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GF00Egm_KvzoaGh1tjhl-10" value="TCNN" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="576.25" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="GF00Egm_KvzoaGh1tjhl-11" value="统一接口" style="rounded=1;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="330" y="406.25" width="70" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GF00Egm_KvzoaGh1tjhl-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GF00Egm_KvzoaGh1tjhl-12" target="GF00Egm_KvzoaGh1tjhl-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GF00Egm_KvzoaGh1tjhl-12" value="&lt;ul&gt;&lt;li&gt;CPU_ORT&lt;/li&gt;&lt;li&gt;CPU_PPL&lt;/li&gt;&lt;li&gt;GPU_TESNORRT&lt;/li&gt;&lt;li&gt;GPU_MNN&lt;/li&gt;&lt;li&gt;GPU_PPL&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" parent="1" vertex="1">
+          <mxGeometry x="150" y="536.25" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="GF00Egm_KvzoaGh1tjhl-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GF00Egm_KvzoaGh1tjhl-13" target="GF00Egm_KvzoaGh1tjhl-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="GF00Egm_KvzoaGh1tjhl-13" value="set" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1" parent="1" vertex="1">
+          <mxGeometry x="50" y="571.25" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="GF00Egm_KvzoaGh1tjhl-16" value="输出&lt;br&gt;outputs&lt;br&gt;multiple outputs" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fillColor=#f8cecc;strokeColor=#b85450;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="426.25" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GF00Egm_KvzoaGh1tjhl-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="GF00Egm_KvzoaGh1tjhl-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="706.25" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GF00Egm_KvzoaGh1tjhl-18" value="同一个部署模型&lt;br&gt;A.onnx" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+          <mxGeometry x="160" y="726.25" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="GF00Egm_KvzoaGh1tjhl-21" value="输出最优推理配置&lt;br&gt;输出推荐应用后端" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="382.5" y="786.25" width="165" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
