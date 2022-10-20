@@ -1,1 +1,64 @@
-<mxfile host="app.diagrams.net" modified="2022-10-20T06:37:17.174Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" version="20.4.2" etag="PHipPbCwhK2iK0KHFD3k" type="github"><diagram id="xv_Z_rrtoqEzJXmBa6GU">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-10-20T06:43:23.066Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.3 Safari/605.1.15" etag="qrRLvZ5fVEFjC3hMjCIF" version="20.4.2" type="github">
+  <diagram id="xv_Z_rrtoqEzJXmBa6GU" name="第 1 页">
+    <mxGraphModel dx="736" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aggRE9AeoPP2x4ic-RaH-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="1" source="aggRE9AeoPP2x4ic-RaH-4" target="aggRE9AeoPP2x4ic-RaH-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aggRE9AeoPP2x4ic-RaH-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aggRE9AeoPP2x4ic-RaH-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="325" y="485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aggRE9AeoPP2x4ic-RaH-1" value="TCNN&lt;br&gt;标准算子+自定义Plugin" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="325" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aggRE9AeoPP2x4ic-RaH-3" value="可扩展性&lt;br&gt;Plugin兼容更大尺寸维度" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="310" width="130" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="aggRE9AeoPP2x4ic-RaH-4" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.x;fillColor=#e51400;strokeColor=#B20000;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="420" y="335" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="aggRE9AeoPP2x4ic-RaH-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;" edge="1" parent="1" source="aggRE9AeoPP2x4ic-RaH-1" target="aggRE9AeoPP2x4ic-RaH-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="355" as="targetPoint" />
+            <mxPoint x="390" y="355" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aggRE9AeoPP2x4ic-RaH-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aggRE9AeoPP2x4ic-RaH-7" target="aggRE9AeoPP2x4ic-RaH-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aggRE9AeoPP2x4ic-RaH-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aggRE9AeoPP2x4ic-RaH-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aggRE9AeoPP2x4ic-RaH-7" value="PyTorch模型" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="70" y="500" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aggRE9AeoPP2x4ic-RaH-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.008;entryY=0.633;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="aggRE9AeoPP2x4ic-RaH-8" target="aggRE9AeoPP2x4ic-RaH-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aggRE9AeoPP2x4ic-RaH-8" value="Tf重写" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="150" y="385" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="aggRE9AeoPP2x4ic-RaH-11" value="Tensorflow2tcnn" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="335" width="100" height="35" as="geometry" />
+        </mxCell>
+        <mxCell id="aggRE9AeoPP2x4ic-RaH-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="aggRE9AeoPP2x4ic-RaH-14" target="aggRE9AeoPP2x4ic-RaH-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aggRE9AeoPP2x4ic-RaH-14" value="torch2tcnn" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="370" y="510" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aggRE9AeoPP2x4ic-RaH-16" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.tick;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="470" y="470" width="50" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
